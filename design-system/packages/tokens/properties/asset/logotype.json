@@ -1,0 +1,10 @@
+{
+  "asset": {
+    "logotype": {
+      "primary": {
+        "name" : { "value": "BudPrimaryLogotype" },
+        "svg"  : { "value": "assets/logotypes/primary.svg" }
+      }
+    }
+  }
+}

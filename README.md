@@ -14,46 +14,32 @@ This repository is a monorepo, which consists of all design-system packages for 
 Use those resources in your front-end applications to create a consistent visual signature for our products.
 
 * [Table of contents](#)
-  * [Prerequisites](#-prerequisites)
   * [Quickstart](#-quickstart)
   * [Usage](#-usage)
   * [Contributing](#-contributing)
-  * [Useful links](#-useful-links)
   * [License](#-license)
-
-## 👽 Prerequisites
-
-To install and use our design system packages, you must follow these steps:
-
-### 1. Configure your Github Packages access token
-
-We're using Github Packages to host our design-system resources. We've applied some of the required configurations in the `.npmrc` file at this repository, but you may need to add your token.
-
-**IMPORTANT:** Don't add your token directly to the `.npmrc` file of this repository. You should add it to the `~/.npmrc` file in your home directory.
-
-To learn more about Github Packages configuration, check [this page](https://docs.github.com/en/free-pro-team@latest/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages).
-
-### 2. Install the required software
-
-To use our design system, you need the following tools in your workstation:
-
-* [yarn](https://yarnpkg.com/) _(or npm)_
 
 ## 🧙‍♂️ Quickstart
 
-_TODO_
+Our entire documentation regarding how to install and use our components is located at our storybook. You can start the storybook server with the following commands:
+
+``` sh
+cd design-system
+yarn install
+yarn start
+```
+
+After that, your storybook server will be running at [http://localhost:6006](http://localhost:6006). You
+
+**Alternatively,** you can access our [remote storybook](https://design-system.getbud.co) with the latest stable release documentation.
 
 ## 👩‍🔬 Usage
 
-_TODO_
+You can learn how to use our design system by accessing our [remote storybook](https://design-system.getbud.co)(latest stable version), or by [running a storybook server](#-quickstart) and them accessing it at [http://localhost:6006](http://localhost:6006).
 
 ## 💻 Contributing
 
 Contributions are what make our company such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. You can learn how to contribute to this project on the [`CONTRIBUTING`](CONTRIBUTING.md) file.
-
-## 🔗 Useful links
-
-* [Github Packages configuration](https://docs.github.com/en/free-pro-team@latest/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages)
 
 ## 🔓 License
 

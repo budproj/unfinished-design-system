@@ -1,0 +1,40 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Introduction/Getting started" />
+
+# Welcome to Bud's Design System
+
+This is our design system storybook. It helps you build UI components in isolation from your app's business logic, data, and context.
+That makes it easy to develop hard-to-reach states. Save these UI states as **stories** to revisit during development, testing, or QA.
+
+Browse our components based on their package at the sidebar. You can click in a given component, and explore how it works. There are plenty of options and you can learn more about storybooks at [storybook.js.org](https://storybook.js.org/)
+
+## Packages
+
+Below, you can find a list containing all active packages in our design system:
+
+* **@bud/core:** Core components for our design system
+* **@bud/tokens:** Build system to centralize the definition of component tokens and assets
+
+These packages are available at our [Github packages](https://github.com/budproj/design-system/packages)
+
+## Prerequisites
+
+To install any of our packages, you must first configure your NPM to include the Github Packages registry. You can do so by editing your `.npmrc` with the following:
+
+```
+@bud:registry=https://npm.pkg.github.com
+```
+
+If you want to lear more, read the [documentation about installing a package from Github Packages](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages#installing-a-package).
+
+Now, with the Github Packages binded in your `.npmrc`, you can install your package:
+
+```
+$ yarn add @bud/<package-name>
+```
+
+Each project has some peer dependencies, you can check those at the package's main documentation:
+
+* [@bud/core](?path=/story/introduction-installation--page#core)
+* [@bud/tokens](?path=/story/introduction-installation--page#tokens)
