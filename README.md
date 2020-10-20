@@ -12,11 +12,16 @@ Common components and libraries to use in our front-end applications
 _TODO_
 
 * [Table of contents](#)
+  * [Prerequisites](#-prerequisites)
   * [Quickstart](#-quickstart)
   * [Usage](#-usage)
   * [Contributing](#-contributing)
   * [Useful links](#-useful-links)
   * [License](#-license)
+
+## 👽 Prerequisites
+
+_TODO_
 
 ## 🧙‍♂️ Quickstart
 
