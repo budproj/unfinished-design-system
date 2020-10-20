@@ -9,7 +9,9 @@ Common components and libraries to use in our front-end applications
 
 ## 📖 About this
 
-_TODO_
+This repository is a monorepo, which consists of all design-system packages for our entire presentation layer. You can install each package separately, or the whole design system if you want.
+
+Use those resources in your front-end applications to create a consistent visual signature for our products.
 
 * [Table of contents](#)
   * [Prerequisites](#-prerequisites)
