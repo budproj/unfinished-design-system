@@ -23,7 +23,21 @@ Use those resources in your front-end applications to create a consistent visual
 
 ## 👽 Prerequisites
 
-_TODO_
+To install and use our design system packages, you must follow these steps:
+
+### 1. Configure your Github Packages access token
+
+We're using Github Packages to host our design-system resources. We've applied some of the required configurations in the `.npmrc` file at this repository, but you may need to add your token.
+
+**IMPORTANT:** Don't add your token directly to the `.npmrc` file of this repository. You should add it to the `~/.npmrc` file in your home directory.
+
+To learn more about Github Packages configuration, check [this page](https://docs.github.com/en/free-pro-team@latest/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages).
+
+### 2. Install the required software
+
+To use our design system, you need the following tools in your workstation:
+
+* [yarn](https://yarnpkg.com/) _(or npm)_
 
 ## 🧙‍♂️ Quickstart
 
@@ -39,7 +53,7 @@ Contributions are what make our company such an amazing place to learn, inspire,
 
 ## 🔗 Useful links
 
-_TODO_
+* [Github Packages configuration](https://docs.github.com/en/free-pro-team@latest/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages)
 
 ## 🔓 License
 
