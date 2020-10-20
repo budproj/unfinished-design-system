@@ -4,7 +4,7 @@
   <br>
 </p>
 <p align="center">
-Build system to centralize the definition of component tokens
+Build system to centralize the definition of component tokens and assets
 </p>
 
 ## 📖 About this

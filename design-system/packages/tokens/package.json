@@ -1,7 +1,7 @@
 {
-  "name": "@budproj/tokens",
+  "name": "@bud/tokens",
   "version": "0.0.1",
-  "description": "Build system to centralize the definition of component tokens",
+  "description": "Build system to centralize the definition of component tokens and assets",
   "main": "dist/index.js",
   "author": "delucca",
   "license": "Apache 2.0",

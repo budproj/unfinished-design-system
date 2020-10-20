@@ -21,13 +21,24 @@
     "packages/*"
   ],
   "scripts": {
+    "start": "yarn storybook:start",
     "build": "lerna run build",
     "clean": "lerna run clean",
     "publish": "lerna run publish",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "storybook:start": "start-storybook -p 6006",
+    "storybook:build": "build-storybook"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@storybook/addon-actions": "^6.0.26",
+    "@storybook/addon-essentials": "^6.0.26",
+    "@storybook/addon-links": "^6.0.26",
+    "@storybook/react": "^6.0.26",
+    "babel-loader": "^8.1.0",
     "lerna": "^3.22.1",
+    "react-is": "^17.0.0",
     "typescript": "^4.0.3"
-  }
+  },
+  "dependencies": {}
 }
