@@ -37,7 +37,12 @@ To learn more about Github Packages configuration, check [this page](https://doc
 
 To use our design system, you need the following tools in your workstation:
 
-* [yarn](https://yarnpkg.com/) _(or npm)_
+* [asdf](https://github.com/asdf-vm/asdf)
+* [asdf-yarn](https://github.com/twuni/asdf-yarn)
+
+### 3. Install the required software for the desired package
+
+Each package contains a list of peer dependencies that you must install in your project before using them. They're listed on the package's README file. Take a look there!
 
 ## 🧙‍♂️ Quickstart
 

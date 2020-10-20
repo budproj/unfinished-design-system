@@ -1,0 +1,27 @@
+{
+  "name": "@budproj/core",
+  "version": "0.0.1",
+  "description": "Core components for our design system",
+  "main": "dist/index.js",
+  "author": "delucca",
+  "license": "Apache 2.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budproj/design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/budproj/design-system/issues"
+  },
+  "engines": {
+    "yarn": ">=1.22.10",
+    "node": ">=15.0.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "theme-ui": "^0.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.53"
+  }
+}
