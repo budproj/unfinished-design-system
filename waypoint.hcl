@@ -1,32 +1,20 @@
 project = "design-system"
 
 app "storybook" {
-  labels = {
-    "service" = "design-system",
-    "env" = "production"
-  }
+  path = "design-system"
 
   build {
     use "pack" {}
     registry {
       use "aws-ecr" {
         region = "sa-east-1"
-        repository = "root"
+        repository = "design-system"
         tag = "latest"
       }
     }
   }
 
-  deploy {
-    use "kubernetes" {
-      namespace = "develop"
-    }
-  }
-
-  release {
-    use "kubernetes" {
-      namespace = "production"
-      port = 6006
-    }
+  deploy{
+    use "exec"{}
   }
 }
