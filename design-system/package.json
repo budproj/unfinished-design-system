@@ -17,7 +17,12 @@
     "node": ">=15.0.0"
   },
   "workspaces": {
-    "packages": ["packages/*"]
+    "packages": ["packages/*"],
+    "nohoist": [
+      "@storybook",
+      "**/@storybook",
+      "**/@storybook/**"
+    ]
   },
   "scripts": {
     "build": "lerna run build",

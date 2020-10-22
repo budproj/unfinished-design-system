@@ -1,3 +1,3 @@
 export { default as Box } from './Box';
 
-export * as themes from './themes';
+export * as styles from './styles';

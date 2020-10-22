@@ -33,7 +33,6 @@
   "scripts": {
     "start": "serve dist/storybook",
     "start:dev": "start-storybook",
-    "build:storybook": "build-storybook -o dist/storybook",
-    "refresh": "rimraf node_modules && yarn install && yarn start:dev"
+    "build:storybook": "build-storybook -o dist/storybook"
   }
 }
