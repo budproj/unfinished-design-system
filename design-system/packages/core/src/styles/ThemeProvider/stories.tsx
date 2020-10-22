@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react'
+import React, { ComponentType } from 'react'
 import { Button } from 'theme-ui'
 import { Story, Meta } from '@storybook/react/types-6-0'
 
@@ -6,7 +6,7 @@ import { base as baseTheme } from 'styles/themes'
 import ThemeProvider from './Component'
 import { ThemeProviderProps } from './interfaces'
 
-const TestComponent: FunctionComponent = () => <Button>This is a button with theme</Button>
+const TestComponent: ComponentType = () => <Button>This is a button with theme</Button>
 
 const Template: Story<ThemeProviderProps> = (args) => <ThemeProvider {...args} />
 
@@ -35,7 +35,7 @@ export default {
       control: null,
       table: {
         defaultValue: {
-          summary: '*',
+          summary: 'ReactNode',
         },
       },
     },

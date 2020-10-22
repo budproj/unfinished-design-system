@@ -20,6 +20,7 @@
   },
   "peerDependencies": {
     "@bud/tokens": "0.0.1",
+    "@bud/utils": "0.0.1",
     "react": "^17.0.0"
   },
   "devDependencies": {

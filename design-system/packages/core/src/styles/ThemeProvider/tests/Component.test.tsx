@@ -14,11 +14,11 @@ type Theme = {
 }
 
 describe('Component composition', () => {
-  const fakeTheme = createMock<Theme>()
+  const fakeTheme: Theme = createMock<Theme>()
 
   it('Should return an instance of TUIThemeProvider', () => {
     const wrapper = shallow(<Component />)
-    expect(wrapper.first().type()).toBe(TUIThemeProvider)
+    expect(wrapper.type()).toBe(TUIThemeProvider)
   })
 
   it('Should pass a given theme to the Theme-ui ThemeProvider', () => {

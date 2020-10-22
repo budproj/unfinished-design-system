@@ -17,7 +17,9 @@
     "node": ">=15.0.0"
   },
   "workspaces": {
-    "packages": ["packages/*"],
+    "packages": [
+      "packages/*"
+    ],
     "nohoist": [
       "@storybook",
       "**/@storybook",
@@ -34,6 +36,8 @@
     "icons": "yarn workspace @bud/icons"
   },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
