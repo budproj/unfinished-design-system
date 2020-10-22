@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Common components and libraries to use in our front-end applications",
   "author": "delucca",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "private": true,
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     "publish": "lerna run publish",
     "test": "lerna run test",
     "core": "yarn workspace @bud/core",
+    "tokens": "yarn workspace @bud/tokens",
     "icons": "yarn workspace @bud/icons"
   },
   "devDependencies": {

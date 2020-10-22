@@ -1,4 +1,4 @@
-import ThemeProvider from './Component';
-export { ThemeProviderProps } from './interfaces';
+import ThemeProvider from './Component'
+export { ThemeProviderProps } from './interfaces'
 
-export default ThemeProvider;
+export default ThemeProvider

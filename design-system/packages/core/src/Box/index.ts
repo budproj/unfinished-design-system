@@ -1,3 +1,3 @@
-import Box from './Component';
+import Box from './Component'
 
-export default Box;
+export default Box

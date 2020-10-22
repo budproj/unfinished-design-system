@@ -1,20 +1,7 @@
-import { colors } from '@bud/tokens';
+import { colors } from '@bud/tokens'
+import { TUITheme } from './interfaces'
 
-interface ThemeUIColorsSpec {
-  text: string,
-  background: string,
-  primary: string,
-  secondary: string,
-  accent: string,
-  highlight: string,
-  muted: string,
-};
-
-interface ThemeUISpec {
-  colors: ThemeUIColorsSpec,
-};
-
-export default <ThemeUISpec> {
+export default <TUITheme>{
   colors: {
     text: colors.grey[500],
     background: colors.white,
@@ -24,4 +11,4 @@ export default <ThemeUISpec> {
     highlight: colors.cyan[500],
     muted: colors.grey[200],
   },
-};
+}

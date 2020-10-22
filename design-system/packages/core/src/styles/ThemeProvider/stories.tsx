@@ -1,30 +1,27 @@
-import React, { FunctionComponent } from 'react';
-import { Button } from 'theme-ui';
-import { Story, Meta } from '@storybook/react/types-6-0';
+import React, { FunctionComponent } from 'react'
+import { Button } from 'theme-ui'
+import { Story, Meta } from '@storybook/react/types-6-0'
 
-import { base as baseTheme } from 'styles/themes';
-import ThemeProvider from './Component';
-import { ThemeProviderProps } from './interfaces';
+import { base as baseTheme } from 'styles/themes'
+import ThemeProvider from './Component'
+import { ThemeProviderProps } from './interfaces'
 
-const TestComponent: FunctionComponent = () => (
-  <Button>
-    This is a button with theme
-  </Button>
-);
+const TestComponent: FunctionComponent = () => <Button>This is a button with theme</Button>
 
-const Template: Story<ThemeProviderProps> = (args) => <ThemeProvider {...args} />;
+const Template: Story<ThemeProviderProps> = (args) => <ThemeProvider {...args} />
 
-export const Primary = Template.bind({});
+export const Primary = Template.bind({})
 Primary.args = {
   children: <TestComponent />,
-};
+}
 
 export default {
-  title: "Styles/ThemeProvider",
+  title: 'Styles/ThemeProvider',
   component: ThemeProvider,
   argTypes: {
     theme: {
-      description: 'This property defines the theme that should be applied to your application. It is important to note that this should be a valid theme',
+      description:
+        'This property defines the theme that should be applied to your application. It is important to note that this should be a valid theme',
       control: 'object',
       table: {
         defaultValue: {
@@ -33,11 +30,12 @@ export default {
       },
     },
     children: {
-      description: 'Your application root node. Since this is a provider, your entire application should be inside it',
+      description:
+        'Your application root node. Since this is a provider, your entire application should be inside it',
       control: null,
       table: {
         defaultValue: {
-          summary: '*'
+          summary: '*',
         },
       },
     },
@@ -45,4 +43,4 @@ export default {
   args: {
     theme: baseTheme,
   },
-} as Meta;
+} as Meta

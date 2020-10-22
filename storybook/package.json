@@ -4,7 +4,7 @@
   "description": "Our complete storybook, explaining all our package's components",
   "main": "dist/main.js",
   "author": "delucca",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "private": false,
   "repository": {
     "type": "git",

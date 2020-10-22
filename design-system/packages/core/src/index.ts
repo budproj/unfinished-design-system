@@ -1,3 +1,3 @@
-export { default as Box } from './Box';
+export { default as Box } from './Box'
 
-export * as styles from './styles';
+export * as styles from './styles'

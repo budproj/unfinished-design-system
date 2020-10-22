@@ -1,7 +1,7 @@
-import { ReactNode } from 'react';
-import { Theme } from '@theme-ui/core';
+import { ReactNode } from 'react'
+import { Theme } from '@theme-ui/core'
 
 export interface ThemeProviderProps {
-  theme?: Theme,
-  children?: ReactNode,
-};
+  theme?: Theme
+  children?: ReactNode
+}

@@ -14,4 +14,4 @@ export default {
       compiler: 'ttypescript',
     },
   },
-};
+}
