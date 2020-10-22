@@ -3,7 +3,9 @@
   "compilerOptions": {
     "strict": false,
     "declaration": true,
+    "sourceMap": true,
+    "composite": true,
     "jsx": "react",
-    "sourceMap": true
+    "moduleResolution": "node"
   }
 }

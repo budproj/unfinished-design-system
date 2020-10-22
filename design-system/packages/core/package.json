@@ -2,7 +2,8 @@
   "name": "@bud/core",
   "version": "0.0.1",
   "description": "Core components for our design system",
-  "main": "dist/index.js",
+  "main": "dist/index",
+  "typings": "dist/index.d.ts",
   "author": "delucca",
   "license": "Apache 2.0",
   "private": false,
@@ -18,18 +19,20 @@
     "node": ">=15.0.0"
   },
   "peerDependencies": {
-    "@bud/tokens": "../tokens/dist",
+    "@bud/tokens": "0.0.1",
     "react": "^17.0.0",
     "theme-ui": "^0.3.1"
   },
   "devDependencies": {
+    "@svgr/webpack": "^5.4.0",
     "@tsconfig/recommended": "^1.0.1",
     "@types/react": "^16.9.53",
     "rimraf": "^3.0.2",
     "typescript": "^4.0.3"
   },
   "scripts": {
-    "build": "yarn clean && yarn compile && yarn copy",
+    "prepack": "yarn build",
+    "build": "yarn clean && yarn compile",
     "clean": "rimraf -rf ./dist",
     "compile": "tsc",
     "copy": "cp README.md package.json dist"

@@ -7,9 +7,6 @@
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": "./src",
-    "baseUrl": ".",
-    "typeRoots": [
-      "./src/index.d.ts"
-    ]
+    "baseUrl": "."
   }
 }
