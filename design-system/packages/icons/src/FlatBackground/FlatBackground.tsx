@@ -1,8 +1,8 @@
 import React, { FunctionComponent } from 'react';
-import Box from '@bud/core/Box';
+import core from '@bud/core';
 
 const FlatBackground: FunctionComponent = () => (
-  <Box />
+  <core.Box />
 );
 
 export default FlatBackground;

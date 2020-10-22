@@ -2,8 +2,8 @@
   "name": "@bud/core",
   "version": "0.0.1",
   "description": "Core components for our design system",
-  "main": "dist/index",
-  "typings": "dist/index.d.ts",
+  "main": "index.js",
+  "typings": "index.d.ts",
   "author": "delucca",
   "license": "Apache 2.0",
   "private": false,
@@ -20,21 +20,26 @@
   },
   "peerDependencies": {
     "@bud/tokens": "0.0.1",
-    "react": "^17.0.0",
-    "theme-ui": "^0.3.1"
+    "react": "^17.0.0"
   },
   "devDependencies": {
     "@svgr/webpack": "^5.4.0",
     "@tsconfig/recommended": "^1.0.1",
     "@types/react": "^16.9.53",
     "rimraf": "^3.0.2",
-    "typescript": "^4.0.3"
+    "typescript": "^4.0.3",
+    "@storybook/addon-essentials": "^6.0.26",
+    "@storybook/react": "^6.0.26",
+    "react-is": "^17.0.0"
   },
   "scripts": {
     "prepack": "yarn build",
-    "build": "yarn clean && yarn compile",
+    "build": "yarn clean && yarn compile && yarn copy",
     "clean": "rimraf -rf ./dist",
     "compile": "tsc",
     "copy": "cp README.md package.json dist"
+  },
+  "dependencies": {
+    "theme-ui": "^0.3.1"
   }
 }

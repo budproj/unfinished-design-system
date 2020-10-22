@@ -4,7 +4,8 @@
     "strict": false,
     "declaration": true,
     "sourceMap": true,
-    "composite": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
     "jsx": "react",
     "moduleResolution": "node"
   }

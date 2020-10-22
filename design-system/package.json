@@ -2,7 +2,6 @@
   "name": "design-system",
   "version": "0.0.1",
   "description": "Common components and libraries to use in our front-end applications",
-  "main": "index.js",
   "author": "delucca",
   "license": "Apache 2.0",
   "private": true,
@@ -17,9 +16,9 @@
     "yarn": ">=1.19.1",
     "node": ">=15.0.0"
   },
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": ["packages/*"]
+  },
   "scripts": {
     "build": "lerna run build",
     "clean": "lerna run clean",
@@ -29,7 +28,6 @@
     "icons": "yarn workspace @bud/icons"
   },
   "devDependencies": {
-    "lerna": "^3.22.1",
-    "theme-ui": "^0.3.1"
+    "lerna": "^3.22.1"
   }
 }

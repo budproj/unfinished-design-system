@@ -1,6 +1,4 @@
-import { addons } from '@storybook/addons';
-import { themes } from '@storybook/theming';
+import { storybook } from '@bud/core/themes';
 
-import theme from './theme';
-
-addons.setConfig({ theme });
+console.log('testing');
+console.log(storybook);
