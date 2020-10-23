@@ -22,4 +22,11 @@ export default <TUITheme>{
     heading: 500,
     bold: 700,
   },
+
+  styles: {
+    root: {
+      fontFamily: 'body',
+      fontWeight: 'body',
+    },
+  },
 }
