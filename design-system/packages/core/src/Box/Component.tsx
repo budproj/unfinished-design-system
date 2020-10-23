@@ -1,14 +1,16 @@
 import React, { ComponentType, ComponentProps } from 'react'
+import { Box as TUIBox } from 'theme-ui'
 
-import StyledBox from './StyledBox'
 import { BoxProps } from './interfaces'
 
-const Box: ComponentType<BoxProps & ComponentProps<'div'>> = ({
-  borderRadius = 0,
-  p = 2,
-  bg = 'primary',
-  color = '#ffffff',
-  ...rest
-}) => <StyledBox borderRadius={borderRadius} p={p} bg={bg} color={color} {...rest} />
+const Box: ComponentType<BoxProps & ComponentProps<'div'>> = ({ p = 2, borderColor, ...rest }) => (
+  <TUIBox
+    p={p}
+    sx={{
+      borderColor,
+    }}
+    {...rest}
+  />
+)
 
 export default Box

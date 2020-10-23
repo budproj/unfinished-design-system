@@ -1,5 +1,6 @@
 import React, { ComponentType } from 'react'
 import { Story, Meta } from '@storybook/react/types-6-0'
+import theme from '@bud/themes/preset-base'
 
 import Box from './Component'
 import { BoxProps } from './interfaces'
@@ -8,28 +9,63 @@ const Child: ComponentType = () => <p>Hi! I am a box 😄</p>
 
 const Template: Story<BoxProps> = (args) => <Box {...args} />
 
-export const Primary = Template.bind({})
-Primary.args = {
+export const Default = Template.bind({})
+Default.args = {
   children: <Child />,
+}
+
+export const Rounded = Template.bind({})
+Rounded.args = {
+  children: <Child />,
+  variant: 'box.rounded',
+  bg: 'primary',
+  color: 'white',
+}
+
+export const Oval = Template.bind({})
+Oval.args = {
+  children: <Child />,
+  variant: 'box.oval',
+  bg: 'primary',
+  color: 'white',
+}
+
+export const Contained = Template.bind({})
+Contained.args = {
+  children: <Child />,
+  variant: 'box.contained',
+}
+
+export const RoundedContained = Template.bind({})
+RoundedContained.args = {
+  children: <Child />,
+  variant: 'box.roundedContained',
+  bg: 'primary',
+  color: 'white',
+}
+
+export const OvalContained = Template.bind({})
+OvalContained.args = {
+  children: <Child />,
+  variant: 'box.ovalContained',
+  bg: 'primary',
+  color: 'white',
 }
 
 export default {
   title: 'Components/Box',
   component: Box,
   argTypes: {
-    borderRadius: {
-      description: 'How rounded your box should be',
+    variant: {
+      description: 'The type of Box you want to use',
       control: {
-        type: 'range',
-        min: 0,
-        max: 100,
-        step: 1,
+        type: 'select',
+        options: Object.keys(theme.variants.box).map((variant) => `box.${variant}`),
       },
-      table: {
-        defaultValue: {
-          summary: 0,
-        },
-      },
+    },
+    borderColor: {
+      description: 'The hex code of your desired border color in your Box',
+      control: 'text',
     },
     p: {
       description: 'The amount of padding your Box must have',
@@ -46,20 +82,10 @@ export default {
         type: 'select',
         options: ['primary', 'secondary'],
       },
-      table: {
-        defaultValue: {
-          summary: 'primary',
-        },
-      },
     },
     color: {
       description: 'The hex code of your desired text color in your Box',
       control: 'text',
-      table: {
-        defaultValue: {
-          summary: '#ffffff',
-        },
-      },
     },
     children: {
       description: 'Your desired Box content. This should be a valid React Node',
@@ -70,11 +96,5 @@ export default {
         },
       },
     },
-  },
-  args: {
-    borderRadius: 0,
-    p: 2,
-    bg: 'primary',
-    color: '#ffffff',
   },
 } as Meta

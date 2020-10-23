@@ -24,7 +24,7 @@ const environments: TestEnvironments = {
   },
   invalid: {
     [faker.random.word()]: faker.random.word(),
-  }
+  },
 }
 
 describe('Function composition', () => {

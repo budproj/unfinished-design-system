@@ -3,6 +3,7 @@ import { TUITheme } from './interfaces'
 
 export default <TUITheme>{
   colors: {
+    black: colors.black,
     text: colors.g500,
     background: colors.white,
     primary: colors.b500,
@@ -17,7 +18,7 @@ export default <TUITheme>{
     heading: `${fonts.base}, sans-serif`,
   },
 
-  fontsWeights: {
+  fontWeights: {
     body: 300,
     heading: 500,
     bold: 700,
@@ -27,6 +28,34 @@ export default <TUITheme>{
     root: {
       fontFamily: 'body',
       fontWeight: 'body',
+    },
+  },
+
+  variants: {
+    box: {
+      rounded: {
+        borderRadius: 10,
+      },
+      oval: {
+        borderRadius: '100%',
+      },
+      contained: {
+        borderWidth: 1,
+        borderColor: 'black',
+        borderStyle: 'solid',
+      },
+      roundedContained: {
+        borderRadius: 10,
+        borderWidth: 1,
+        borderColor: 'black',
+        borderStyle: 'solid',
+      },
+      ovalContained: {
+        borderRadius: '100%',
+        borderWidth: 1,
+        borderColor: 'black',
+        borderStyle: 'solid',
+      },
     },
   },
 }

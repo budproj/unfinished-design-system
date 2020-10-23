@@ -1,7 +1,7 @@
 import { BoxProps as TUIBoxProps } from 'theme-ui'
 
 type CustomBoxProps = {
-  borderRadius?: number
+  borderColor?: string
 }
 
 export interface BoxProps extends TUIBoxProps, CustomBoxProps {}
