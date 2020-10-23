@@ -1,8 +1,8 @@
 import React, { ComponentType } from 'react'
 import { Button } from 'theme-ui'
 import { Story, Meta } from '@storybook/react/types-6-0'
+import baseTheme from '@bud/themes/preset-base'
 
-import { base as baseTheme } from 'styles/themes'
 import ThemeProvider from './Component'
 import { ThemeProviderProps } from './interfaces'
 
@@ -25,7 +25,7 @@ export default {
       control: 'object',
       table: {
         defaultValue: {
-          summary: 'Theme/Base',
+          summary: '@bud/themes/preset-base',
         },
       },
     },

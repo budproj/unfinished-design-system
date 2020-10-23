@@ -1,12 +1,11 @@
 {
   "source": [
-    "properties/**/*.json"
+    "properties/**/**/*.json"
   ],
   "platforms": {
     "js": {
       "transformGroup": "js",
       "buildPath": "dist/",
-      "actions": ["copy_assets"],
       "files": [
         {
           "format": "javascript/umd",

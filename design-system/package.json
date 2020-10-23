@@ -33,7 +33,8 @@
     "test": "lerna run test",
     "core": "yarn workspace @bud/core",
     "tokens": "yarn workspace @bud/tokens",
-    "icons": "yarn workspace @bud/icons"
+    "icons": "yarn workspace @bud/icons",
+    "themes": "yarn workspace @bud/themes"
   },
   "devDependencies": {
     "@emotion/styled": "^10.0.27",

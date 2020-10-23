@@ -1,0 +1,6 @@
+{
+  "fonts": {
+    "base": "{fonts.circularstd}",
+    "circularstd": "{assets.fonts.circularstd.name}"
+  }
+}
