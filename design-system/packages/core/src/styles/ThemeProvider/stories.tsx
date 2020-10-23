@@ -6,13 +6,13 @@ import { base as baseTheme } from 'styles/themes'
 import ThemeProvider from './Component'
 import { ThemeProviderProps } from './interfaces'
 
-const TestComponent: ComponentType = () => <Button>This is a button with theme</Button>
+const Child: ComponentType = () => <Button>This is a button with theme</Button>
 
 const Template: Story<ThemeProviderProps> = (args) => <ThemeProvider {...args} />
 
 export const Primary = Template.bind({})
 Primary.args = {
-  children: <TestComponent />,
+  children: <Child />,
 }
 
 export default {

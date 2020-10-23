@@ -1,23 +1,36 @@
 import React, { ComponentType } from 'react'
 import { Story, Meta } from '@storybook/react/types-6-0'
-import { withTheme } from 'hocs'
 
 import Box from './Component'
 import { BoxProps } from './interfaces'
 
-const TestComponent: ComponentType = () => <p>Hi! I am a box 😄</p>
+const Child: ComponentType = () => <p>Hi! I am a box 😄</p>
 
-const Template: Story<BoxProps> = withTheme((args) => <Box {...args} />)
+const Template: Story<BoxProps> = (args) => <Box {...args} />
 
 export const Primary = Template.bind({})
 Primary.args = {
-  children: <TestComponent />,
+  children: <Child />,
 }
 
 export default {
   title: 'Components/Box',
   component: Box,
   argTypes: {
+    borderRadius: {
+      description: 'How rounded your box should be',
+      control: {
+        type: 'range',
+        min: 0,
+        max: 100,
+        step: 1,
+      },
+      table: {
+        defaultValue: {
+          summary: 0,
+        },
+      },
+    },
     p: {
       description: 'The amount of padding your Box must have',
       control: 'number',
@@ -59,6 +72,7 @@ export default {
     },
   },
   args: {
+    borderRadius: 0,
     p: 2,
     bg: 'primary',
     color: '#ffffff',
