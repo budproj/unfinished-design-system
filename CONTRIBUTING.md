@@ -6,12 +6,31 @@ On this document you will find the following topics:
 
 * [How it works](#how-it-works)
 * [Basic architecture](#basic-architecture)
-* _TODO_
+* [Development environment setup](#development-environment-setup)
+* [Package context boundaries](#package-context-boundaries)
+* [Creating a component](#creating-a-component)
+* [Documenting a component](#documenting-a-component)
 
 ## How it works
 
 _TODO_
 
 ## Basic architecture
+
+_TODO_
+
+## Development environment setup
+
+_TODO_
+
+## Package context boundaries
+
+_TODO_
+
+## Creating a component
+
+_TODO_
+
+## Documenting a component
 
 _TODO_
