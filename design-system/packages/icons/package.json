@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "description": "Icons for usage in our interfaces",
   "main": "dist/index.js",
+  "scripts": {
+    "start": "serve dist/storybook",
+    "start:dev": "start-storybook",
+    "build:storybook": "build-storybook -o dist/storybook"
+  },
   "author": "delucca",
   "license": "Apache-2.0",
   "private": false,
@@ -49,10 +54,5 @@
     "ts-node": "^9.0.0",
     "ttypescript": "^1.5.12",
     "typescript": "^4.0.3"
-  },
-  "scripts": {
-    "start": "serve dist/storybook",
-    "start:dev": "start-storybook",
-    "build:storybook": "build-storybook -o dist/storybook"
   }
 }

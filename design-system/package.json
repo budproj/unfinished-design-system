@@ -3,6 +3,16 @@
   "version": "0.0.1",
   "description": "Common components and libraries to use in our front-end applications",
   "author": "delucca",
+  "scripts": {
+    "build": "lerna run build",
+    "clean": "lerna run clean",
+    "publish": "lerna run publish",
+    "test": "lerna run test",
+    "core": "yarn workspace @bud/core",
+    "tokens": "yarn workspace @bud/tokens",
+    "icons": "yarn workspace @bud/icons",
+    "themes": "yarn workspace @bud/themes"
+  },
   "license": "Apache-2.0",
   "private": true,
   "repository": {
@@ -25,16 +35,6 @@
       "**/@storybook",
       "**/@storybook/**"
     ]
-  },
-  "scripts": {
-    "build": "lerna run build",
-    "clean": "lerna run clean",
-    "publish": "lerna run publish",
-    "test": "lerna run test",
-    "core": "yarn workspace @bud/core",
-    "tokens": "yarn workspace @bud/tokens",
-    "icons": "yarn workspace @bud/icons",
-    "themes": "yarn workspace @bud/themes"
   },
   "devDependencies": {
     "@emotion/styled": "^10.0.27",

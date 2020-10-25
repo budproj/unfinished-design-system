@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "description": "Build system to centralize the definition of component tokens and assets",
   "main": "dist/index.js",
+  "scripts": {
+    "build": "style-dictionary build && yarn copy",
+    "clean": "style-dictionary clean",
+    "copy": "cp README.md package.json ../../../LICENSE dist"
+  },
   "author": "delucca",
   "license": "Apache-2.0",
   "private": false,
@@ -16,11 +21,6 @@
   "engines": {
     "yarn": ">=1.19.1",
     "node": ">=15.0.0"
-  },
-  "scripts": {
-    "build": "style-dictionary build && yarn copy",
-    "clean": "style-dictionary clean",
-    "copy": "cp README.md package.json ../../../LICENSE dist"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
