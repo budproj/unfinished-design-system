@@ -7,3 +7,5 @@ dist
 */**/*.tsbuildinfo
 .waypoint
 */**/.eslintcache
+
+.husky
