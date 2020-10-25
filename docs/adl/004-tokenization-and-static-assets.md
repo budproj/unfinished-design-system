@@ -27,8 +27,10 @@ Accepted.
 
 ## Consequences
 
+Tokenization is a complex process. We need to look out and keep it simple. The logic (like mapping those tokens to theme properties) must happen in the design-system itself, keeping the token package just for constant's definition.
 
 ---
 
 ## More reading
 
+* [Style Dictionary's docs](https://amzn.github.io/style-dictionary/#/)
