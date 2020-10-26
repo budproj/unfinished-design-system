@@ -1,0 +1,13 @@
+{
+  "assets": {
+    "logotypes": {
+      "primary": {
+        "name": "BudLogotypePrimary",
+        "svg": {
+          "develop": "{assets.logotypes.primary.svg.production}",
+          "production": "{assets.paths.s3.designsystem.production}/logotypes/primary.svg"
+        }
+      }
+    }
+  }
+}

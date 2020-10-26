@@ -1,0 +1,12 @@
+{
+  "assets": {
+    "paths": {
+      "s3": {
+        "designsystem": {
+          "develop": "{constants.domains.s3}/design-system.s3.{constants.environments.develop}.{constants.domains.root}",
+          "production": "{constants.domains.s3}/design-system.s3.{constants.domains.root}"
+        }
+      }
+    }
+  }
+}

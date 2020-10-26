@@ -1,0 +1,35 @@
+{
+  "name": "design-system-storybook",
+  "version": "0.0.1",
+  "description": "Our complete storybook, explaining all our package's components",
+  "main": "dist/main.js",
+  "author": "delucca",
+  "license": "Apache-2.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budproj/design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/budproj/design-system/issues"
+  },
+  "engines": {
+    "yarn": ">=1.19.1",
+    "node": ">=15.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@bud/core": "../design-system/packages/core/dist",
+    "@bud/tokens": "../design-system/packages/tokens/dist",
+    "@storybook/addon-essentials": "^6.0.26",
+    "@storybook/react": "^6.0.26",
+    "babel-loader": "^8.1.0",
+    "react-is": "^17.0.0",
+    "serve": "^11.3.2"
+  },
+  "scripts": {
+    "start": "serve dist/storybook",
+    "start:dev": "start-storybook -c src",
+    "build": "build-storybook -c src -o dist/storybook"
+  }
+}

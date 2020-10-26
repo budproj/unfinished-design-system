@@ -1,0 +1,17 @@
+{
+  "source": [
+    "properties/**/**/*.json"
+  ],
+  "platforms": {
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "dist/",
+      "files": [
+        {
+          "format": "javascript/umd",
+          "destination": "index.js"
+        }
+      ]
+    }
+  }
+}

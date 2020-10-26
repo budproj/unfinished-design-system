@@ -1,0 +1,14 @@
+{
+  "constants": {
+    "environments": {
+      "local": "local",
+      "develop": "develop",
+      "production": "production"
+    },
+
+    "domains": {
+      "root": "getbud.co",
+      "s3": "https://s3-sa-east-1.amazonaws.com"
+    }
+  }
+}

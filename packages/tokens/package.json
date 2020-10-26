@@ -1,0 +1,29 @@
+{
+  "name": "@bud/tokens",
+  "version": "0.0.1",
+  "description": "Build system to centralize the definition of component tokens and assets",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "style-dictionary build && yarn copy",
+    "clean": "style-dictionary clean",
+    "copy": "cp README.md package.json ../../../LICENSE dist"
+  },
+  "author": "delucca",
+  "license": "Apache-2.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budproj/design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/budproj/design-system/issues"
+  },
+  "engines": {
+    "yarn": ">=1.19.1",
+    "node": ">=15.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "style-dictionary": "^2.10.2"
+  }
+}

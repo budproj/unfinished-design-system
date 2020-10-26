@@ -1,0 +1,51 @@
+{
+  "name": "design-system",
+  "version": "0.0.1",
+  "description": "Common components and libraries to use in our front-end applications",
+  "author": "delucca",
+  "scripts": {
+    "build": "lerna run build",
+    "clean": "lerna run clean",
+    "publish": "lerna run publish",
+    "test": "lerna run test",
+    "core": "yarn workspace @bud/core",
+    "tokens": "yarn workspace @bud/tokens",
+    "icons": "yarn workspace @bud/icons",
+    "themes": "yarn workspace @bud/themes"
+  },
+  "license": "Apache-2.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budproj/design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/budproj/design-system/issues"
+  },
+  "engines": {
+    "yarn": ">=1.19.1",
+    "node": ">=15.0.0"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "@storybook",
+      "**/@storybook",
+      "**/@storybook/**"
+    ]
+  },
+  "devDependencies": {
+    "@emotion/styled": "^10.0.27",
+    "husky": "^4.3.0",
+    "lerna": "^3.22.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lerna run --concurrency 1 --stream precommit --since HEAD --exclude-dependents"
+    }
+  }
+}

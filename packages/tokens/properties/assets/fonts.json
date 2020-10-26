@@ -1,0 +1,160 @@
+{
+  "assets": {
+    "fonts": {
+      "circularstd": {
+        "name": "CircularStd",
+        "paths": {
+          "develop": "{assets.paths.s3.designsystem.develop}/fonts/circularstd",
+          "production": "{assets.paths.s3.designsystem.production}/fonts/circularstd"
+        },
+        "variants": {
+          "n300": {
+            "ttf": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/book.ttf",
+              "production": "{assets.fonts.circularstd.paths.production}/book.ttf"
+            },
+            "eot": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/book.eot",
+              "production": "{assets.fonts.circularstd.paths.production}/book.eot"
+            },
+            "woff": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/book.woff",
+              "production": "{assets.fonts.circularstd.paths.production}/book.woff"
+            },
+            "woff2": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/book.woff2",
+              "production": "{assets.fonts.circularstd.paths.production}/book.woff2"
+            }
+          },
+          "n500": {
+            "ttf": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/medium.ttf",
+              "production": "{assets.fonts.circularstd.paths.production}/medium.ttf"
+            },
+            "eot": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/medium.eot",
+              "production": "{assets.fonts.circularstd.paths.production}/medium.eot"
+            },
+            "woff": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/medium.woff",
+              "production": "{assets.fonts.circularstd.paths.production}/medium.woff"
+            },
+            "woff2": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/medium.woff2",
+              "production": "{assets.fonts.circularstd.paths.production}/medium.woff2"
+            }
+          },
+          "n700": {
+            "ttf": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/bold.ttf",
+              "production": "{assets.fonts.circularstd.paths.production}/bold.ttf"
+            },
+            "eot": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/bold.eot",
+              "production": "{assets.fonts.circularstd.paths.production}/bold.eot"
+            },
+            "woff": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/bold.woff",
+              "production": "{assets.fonts.circularstd.paths.production}/bold.woff"
+            },
+            "woff2": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/bold.woff2",
+              "production": "{assets.fonts.circularstd.paths.production}/bold.woff2"
+            }
+          },
+          "n900": {
+            "ttf": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/black.ttf",
+              "production": "{assets.fonts.circularstd.paths.production}/black.ttf"
+            },
+            "eot": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/black.eot",
+              "production": "{assets.fonts.circularstd.paths.production}/black.eot"
+            },
+            "woff": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/black.woff",
+              "production": "{assets.fonts.circularstd.paths.production}/black.woff"
+            },
+            "woff2": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/black.woff2",
+              "production": "{assets.fonts.circularstd.paths.production}/black.woff2"
+            }
+          },
+
+          "i300": {
+            "ttf": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/bookitalic.ttf",
+              "production": "{assets.fonts.circularstd.paths.production}/bookitalic.ttf"
+            },
+            "eot": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/bookitalic.eot",
+              "production": "{assets.fonts.circularstd.paths.production}/bookitalic.eot"
+            },
+            "woff": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/bookitalic.woff",
+              "production": "{assets.fonts.circularstd.paths.production}/bookitalic.woff"
+            },
+            "woff2": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/bookitalic.woff2",
+              "production": "{assets.fonts.circularstd.paths.production}/bookitalic.woff2"
+            }
+          },
+          "i500": {
+            "ttf": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/mediumitalic.ttf",
+              "production": "{assets.fonts.circularstd.paths.production}/mediumitalic.ttf"
+            },
+            "eot": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/mediumitalic.eot",
+              "production": "{assets.fonts.circularstd.paths.production}/mediumitalic.eot"
+            },
+            "woff": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/mediumitalic.woff",
+              "production": "{assets.fonts.circularstd.paths.production}/mediumitalic.woff"
+            },
+            "woff2": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/mediumitalic.woff2",
+              "production": "{assets.fonts.circularstd.paths.production}/mediumitalic.woff2"
+            }
+          },
+          "i700": {
+            "ttf": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/bolditalic.ttf",
+              "production": "{assets.fonts.circularstd.paths.production}/bolditalic.ttf"
+            },
+            "eot": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/bolditalic.eot",
+              "production": "{assets.fonts.circularstd.paths.production}/bolditalic.eot"
+            },
+            "woff": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/bolditalic.woff",
+              "production": "{assets.fonts.circularstd.paths.production}/bolditalic.woff"
+            },
+            "woff2": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/bolditalic.woff2",
+              "production": "{assets.fonts.circularstd.paths.production}/bolditalic.woff2"
+            }
+          },
+          "i900": {
+            "ttf": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/blackitalic.ttf",
+              "production": "{assets.fonts.circularstd.paths.production}/blackitalic.ttf"
+            },
+            "eot": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/blackitalic.eot",
+              "production": "{assets.fonts.circularstd.paths.production}/blackitalic.eot"
+            },
+            "woff": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/blackitalic.woff",
+              "production": "{assets.fonts.circularstd.paths.production}/blackitalic.woff"
+            },
+            "woff2": {
+              "develop": "{assets.fonts.circularstd.paths.develop}/blackitalic.woff2",
+              "production": "{assets.fonts.circularstd.paths.production}/blackitalic.woff2"
+            }
+          }
+        }
+      }
+    }
+  }
+}
