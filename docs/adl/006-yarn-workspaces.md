@@ -7,6 +7,7 @@
   * [Consequences](#consequences)
   * [Experience Report](#experience-report)
   * [More reading](#more-reading)
+  * [Updates](#updates)
 
 ## Context
 
@@ -18,7 +19,7 @@ We've decided to use [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/works
 
 ## Status
 
-Accepted.
+**DEPRECATED** _check [update 1](#update-1)_
 
 ## Consequences
 
@@ -33,3 +34,9 @@ We've started using it, and some problems appeared, especially while importing l
 ## More reading
 
 * [Yarn Workspaces' docs](https://classic.yarnpkg.com/en/docs/workspaces/)
+
+## Updates
+
+### Update 1
+
+After [business/ADR#001](https://github.com/budproj/architecture-decision-log/blob/main/records/business/001-reducing-initial-technical-complexity.md), we've decided to stop the development of a decoupled design system.

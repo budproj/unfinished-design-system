@@ -6,6 +6,7 @@
   * [Status](#status)
   * [Consequences](#consequences)
   * [More reading](#more-reading)
+  * [Updates](#updates)
 
 ## Context
 
@@ -23,7 +24,7 @@ Instead of increasing the size of our Javascript bundle with static assets, we p
 
 ## Status
 
-Accepted.
+**DEPRECATED** _check [update 1](#update-1)_
 
 ## Consequences
 
@@ -34,3 +35,9 @@ Tokenization is a complex process. We need to look out and keep it simple. The l
 ## More reading
 
 * [Style Dictionary's docs](https://amzn.github.io/style-dictionary/#/)
+
+## Updates
+
+### Update 1
+
+After [business/ADR#001](https://github.com/budproj/architecture-decision-log/blob/main/records/business/001-reducing-initial-technical-complexity.md), we've decided to stop the development of a decoupled design system.

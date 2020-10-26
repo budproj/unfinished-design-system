@@ -6,6 +6,7 @@
   * [Status](#status)
   * [Consequences](#consequences)
   * [More reading](#more-reading)
+  * [Updates](#updates)
 
 ## Context
 
@@ -23,7 +24,7 @@ We've decided on this stack because our team has already used it in the past, an
 
 ## Status
 
-Accepted.
+**DEPRECATED** _check [update 1](#update-1)_
 
 ## Consequences
 
@@ -35,3 +36,9 @@ We've searched about it, and it seems that this is still the optimal TDD stack i
 
 * [Jest's docs](https://jestjs.io/docs/en/getting-started)
 * [Enzyme's docs](https://enzymejs.github.io/enzyme/docs/api/)
+
+## Updates
+
+### Update 1
+
+After [business/ADR#001](https://github.com/budproj/architecture-decision-log/blob/main/records/business/001-reducing-initial-technical-complexity.md), we've decided to stop the development of a decoupled design system.

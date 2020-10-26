@@ -6,6 +6,7 @@
   * [Status](#status)
   * [Consequences](#consequences)
   * [More reading](#more-reading)
+  * [Updates](#updates)
 
 ## Context
 
@@ -26,7 +27,7 @@ We've not decided to use Rebass, since most of the community is already changing
 
 ## Status
 
-Accepted.
+**DEPRECATED** _check [update 1](#update-1)_
 
 ## Consequences
 
@@ -37,3 +38,9 @@ Since we're not using MaterialUI or any other "complete" framework, we will deve
 ## More reading
 
 * [ThemeUI's docs](https://theme-ui.com/getting-started)
+
+## Updates
+
+### Update 1
+
+After [business/ADR#001](https://github.com/budproj/architecture-decision-log/blob/main/records/business/001-reducing-initial-technical-complexity.md), we've decided to stop the development of a decoupled design system.
